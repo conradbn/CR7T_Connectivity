@@ -1,0 +1,121 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 211
+'[conrabn1@conrabn1-VirtualBox: Tue Jan 15 01:49:04 2019] {AFNI_18.3.16:linux_ubuntu_16_64} 3dmask_tool -input full_mask.CR_001_313912+tlrc mask_anat.CR_001_313912+tlrc -inter -prefix mask_epi_anat.CR_001_313912~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_pImWBRDKd367GS7EXPc8Lw~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Tue Jan 15 01:49:04 2019~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 0 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             95         131.75            -77
+
+type  = float-attribute
+name  = DELTA
+count = 3
+           -2.5           -2.5            2.5
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+           -2.5              0              0             95              0
+           -2.5              0         131.75              0              0
+            2.5            -77
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+           -2.5              0              0             95              0
+           -2.5              0         131.75              0              0
+            2.5            -77
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0              1
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 77 92 77 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 0
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 3
+'#0~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
