@@ -2,3 +2,8 @@
 *.jpg
 *.mat
 */CR7T_network_analysis/data_files
+CR7T_network_analysis/.DS_Store
+CR7T_network_analysis/condition_comparison/.DS_Store
+CR7T_network_analysis/permutations_group_level/.DS_Store
+CR7T_network_analysis/condition_comparison/.DS_Store
+.DS_Store
