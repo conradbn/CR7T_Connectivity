@@ -77,6 +77,21 @@ for ii = 1:numel(sig_modules)
     end
 end
 
+%% Calculate similarity of the node allegiance profile between conditions
+Zs = zscore_mats.BN202_Compare_Symbolic;
+Zn = zscore_mats.BN202_Compare_Nonsymbolic;
+Zs(Zs == inf) = NaN;
+Zn(Zn == inf) = NaN;
+Zs_med = nanmedian(Zs,3);
+Zn_med = nanmedian(Zn,3);
+num_nodes = size(Zs,1);
+for ii = 1:num_nodes
+    r = corr(Zs_med(:,ii),Zn_med(:,ii),'rows','complete');
+    r_true(ii,1) = r;
+end
+% Transform to Fisher Z
+Z_true = atanh(r_true);
+
 %% Construct null distribution using permutation
 disp(['Working on ' num2str(num_perms) ' permutations']);
 % Progress bar
