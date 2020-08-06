@@ -12,4 +12,7 @@ External functions and toolboxes are included.
 
 The manuscript is open access and has been published in Network Neuroscience at https://doi.org/10.1162/netn_a_00144.
 
-The the input data for much of this code is available at https://osf.io/sb5v2/.
+The input data for much of this code is available at https://osf.io/sb5v2/.
+
+<a href="https://zenodo.org/badge/latestdoi/210896655"><img src="https://zenodo.org/badge/210896655.svg" alt="DOI"></a>
+
