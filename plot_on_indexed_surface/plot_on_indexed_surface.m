@@ -15,9 +15,9 @@ num_rois = numel(ggl.name);
 % Setup up new color map with number of rois
 cmap = cmap_base(1:num_rois,:);
 % Transpose data
-inds = data';
+inds = data;
 % Insert zero for label 1
-inds = [0;inds];
+inds = [0;inds]';
 % Loop through each ROI
 for jj = 1:size(cmap,1)
     % Get value for ROI
@@ -43,5 +43,5 @@ lightangle(90,20)
 material dull
 colormap(cmap);
 % Prepare fig for printing and save as png
-out = [out_dir '\' out_name];
+out = [out_dir '/' out_name];
 export_fig(out,'-transparent','-r300');

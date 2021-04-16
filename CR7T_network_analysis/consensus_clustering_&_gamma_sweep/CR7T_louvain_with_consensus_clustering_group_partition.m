@@ -2,7 +2,7 @@ function [C_all,M_all,Q_all,Pa_all,Pa_group,C_group] = CR7T_louvain_with_consens
 %% MODULARITY ANALYSIS 
 % 10/20/18
 % Calculate community partiion for each subject/condition using Louvain
-% modularity maximazation with consensus clustering across niters for each subject.
+% modularity maximization with consensus clustering across niters for each subject.
 % Then group level consensus clustering of group agreement matrix
 
 % Check if structure, get/set condition names
